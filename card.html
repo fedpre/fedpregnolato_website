@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+  <style>
+    
+    *{
+      box-sizing: border-box;
+      padding: 0;
+      margin: 0;
+      font-family: Arial, sans-serif;
+      color: #333;
+    }
+    img {
+      max-width: 100%;
+    }
+    
+    .card{
+      width: 320px;
+      background-color: white;
+      border-radius: 3px;
+      box-shadow: 1px 1px 4px 1px #888;
+      margin: 10%;
+      overflow: hidden
+    }
+    
+    p {
+      padding: 15px;
+    }
+    
+    footer {
+      display: flex;
+      padding: 15px;
+      padding-top:0;
+      justify-content: space-between;
+      align-items: center;
+    }
+    
+    button {
+      background: transparent;
+      border-radius: 3px;
+      padding: 3px 10px;
+      cursor: pointer;
+      border: 1px solid #888;
+      color: #888;
+    }
+    
+    .timeHolder{
+      color: #888;
+    }
+    
+  </style>
+</head>
+<body>
+  
+  <article class="card">
+    <img src="https://picsum.photos/320/240" alt="random thumbnail">
+    <p>
+      This is a wider card with supporting text below as a natural lead-in to additional content. This content is a bit longer.
+    </p>
+    <footer>
+      <div class="btn-left">
+        <button class="viewButton">
+        View
+      </button>
+      <button class="editButton">
+        Edit
+      </button>
+      </div>
+      <span class="timeHolder">
+        9 mins
+      </span>
+    </footer>
+  </article>
+    
+</body>
+</html>
